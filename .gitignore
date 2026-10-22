@@ -1,0 +1,102 @@
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# =========================
+# Entornos virtuales
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Variables de entorno y secretos
+# =========================
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Credenciales y certificados privados
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials.json
+service-account*.json
+
+# =========================
+# Airflow
+# =========================
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+airflow-webserver.out
+airflow-scheduler.out
+airflow-*.log
+logs/
+airflow/logs/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# IDE y editores
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# Sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Datos temporales y descargas
+# =========================
+tmp/
+temp/
+downloads/
+minio_downloads/
+*.tmp
+*.bak
+
+# =========================
+# Bases de datos locales
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# Docker y herramientas locales
+# =========================
+.docker/
